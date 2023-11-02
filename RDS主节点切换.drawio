@@ -1,9 +1,47 @@
-<mxfile host="app.diagrams.net" modified="2023-11-02T10:01:25.437Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" version="22.0.8" etag="eY7NkSFZ2ft8Kb4apS7w" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-02T10:19:31.742Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="ZWNb2dyExL2fZqAi9Vjq" version="22.0.8" type="github">
   <diagram name="Page-1" id="32ATZdngchGKsi4qy3dn">
-    <mxGraphModel>
+    <mxGraphModel dx="794" dy="478" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="y7jmpfKo2dBx63ZG00Ak-2" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;MySQL主库切换问题&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="20" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y7jmpfKo2dBx63ZG00Ak-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="y7jmpfKo2dBx63ZG00Ak-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y7jmpfKo2dBx63ZG00Ak-3" value="主库" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="90" y="220" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="y7jmpfKo2dBx63ZG00Ak-4" value="影子库" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="210" y="220" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="y7jmpfKo2dBx63ZG00Ak-5" value="从库" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="370" y="220" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="y7jmpfKo2dBx63ZG00Ak-6" value="影子库" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="490" y="220" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="y7jmpfKo2dBx63ZG00Ak-7" value="Hostname1" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="130" width="250" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="y7jmpfKo2dBx63ZG00Ak-8" value="Hostname2" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="130" width="250" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="y7jmpfKo2dBx63ZG00Ak-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="y7jmpfKo2dBx63ZG00Ak-3" target="y7jmpfKo2dBx63ZG00Ak-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="410" as="targetPoint" />
+            <mxPoint x="140" y="290" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y7jmpfKo2dBx63ZG00Ak-15" value="Flink CDC" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y7jmpfKo2dBx63ZG00Ak-17" value="Flink应用连的主库，&lt;br&gt;mysql-binlog-005.bin &lt;br&gt;pos=10" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="210" y="370" width="130" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
