@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-28T03:15:25.695Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="LnBwPwuqrdZTNWuEpmzH" version="22.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-28T03:23:30.088Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="s6qL0lnj56LuLVvN2LmC" version="22.1.4" type="github">
   <diagram name="第 1 页" id="smU-jeKc8l7mdq0qI46P">
     <mxGraphModel dx="2074" dy="1118" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -271,8 +271,8 @@
         <mxCell id="wMlx9_lM4v91r2jznS0o-187" value="Broker" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" vertex="1" parent="wMlx9_lM4v91r2jznS0o-186">
           <mxGeometry x="12.5" y="40" width="65" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="wMlx9_lM4v91r2jznS0o-190" value="EMR集群架构" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="110" y="328" width="100" height="30" as="geometry" />
+        <mxCell id="wMlx9_lM4v91r2jznS0o-190" value="&lt;font style=&quot;font-size: 48px;&quot;&gt;&lt;b&gt;EMR集群架构&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="92" y="309" width="317" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
